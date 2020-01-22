@@ -1,0 +1,28 @@
+Package: tidymodules
+Title: A robust framework for developing shiny modules
+Version: 0.0.0.9010
+Authors@R: person('Mustapha', 'Larbaoui', email = 'mustapha.larbaoui@novartis.com', role = c('cre', 'aut'))
+Description: tidymodules offers a robust framework for developing shiny modules based on R6 classes which should facilitates inter-modules communication.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    shiny,
+    stringi,
+    digest,
+    R6,
+    visNetwork
+RoxygenNote: 6.1.1
+URL: https://github.com/Novartis/tidymodules
+BugReports: https://github.com/Novartis/tidymodules/issues
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown,
+    ggplot2,
+    dplyr,
+    shinycssloaders,
+    RColorBrewer,
+    shinyWidgets,
+    plotly
+VignetteBuilder: knitr

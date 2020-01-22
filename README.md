@@ -1,0 +1,59 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# tidymodules
+
+[![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+
+Shiny modules is a great feature of Shiny as it helps de-complexify app
+development by introducing reusable building blocks (implemented with
+namespacing und module functions). The *tidymodules* package is built on
+top of this functionality to provide a robust structure and a clear
+convention for shiny modules development.
+
+Some key features of this package are:
+
+  - module encapsulation and semantic reference (R6)
+  - a clear model for managing inter-module communication
+      - input/output ports
+      - pipes
+      - modules connection network
+  - a better experience for the module users (no more namespacing, only
+    dealing with one reference)
+  - the use of object-oriented programming concepts like inheritance to
+    do module abstraction.
+
+## Installation
+
+You can install the most recent version of *tidymodules* from
+[GitHub](https://github.com/Novartis/tidymodules) with:
+
+``` r
+library(devtools)
+install_github("Novartis/tidymodules")
+```
+
+## Example
+
+This is a basic example which shows you how to use the package
+
+``` r
+## how to list tidymodules examples
+```
+
+To list the available examples use this
+
+``` r
+tidymodules::showExamples()
+#> [1] "1_linked_scatter" "2_nested_modules" "3_communication"
+```
+
+To run an example
+
+``` r
+tidymodules::showExamples(3)
+```
+
+Please note that the *tidymodules* package is released with a
+[Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to
+this project, you agree to abide by its terms.

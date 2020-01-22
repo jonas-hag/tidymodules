@@ -1,0 +1,12 @@
+url: http://ava-pkg.statwb-dev.eu.novartis.net/
+home:
+  links:
+  - text: GitLab 
+    href: https://gitlabce.statwb.eu.novartis.net/ava/tidymodules
+  - text: Site
+    href: http://tidymodules.statwb-dev.eu.novartis.net/
+reference:
+- title: MyTitle
+  desc: My first reference
+  contents:
+  
